@@ -1,5 +1,6 @@
 // Armstrong No
 // ex:- raviegupta153@gmail.com, 1634
+// https://replit.com/@ac102-batch/Aircampus-Number-Raviegupta
 
 const armstrongNo = (n) => {
   n = String(n);
