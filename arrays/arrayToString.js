@@ -6,4 +6,11 @@ const arrString = (arr) => {
     let ans =  arr.toString();
     return ans;
 }
-console.log(arrString([1, 5, 3, "ravie"]))
+console.log(arrString([1, 5, 3, "ravie"]));
+
+
+// method2 :- String()
+const arrString2 = (arr) => {
+    return String(arr);
+}
+console.log(arrString2([1, 5, 3, "ravie"]));
