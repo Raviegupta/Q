@@ -4,11 +4,11 @@
 
 const months = ['March', 'Jan', 'Feb', 'Dec'];
 months.sort();
-console.log(months);
+// console.log(months);
 
 const arr1 = [1, 3, 50, 7, 200];
 arr1.sort();
-console.log(arr1);
+// console.log(arr1);
 
 // ---------------------------------------------------------------------------------------------------------
 // Array.prototype.reverse() :-
@@ -17,10 +17,29 @@ console.log(arr1);
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.sort();
-console.log(fruits);
+// console.log(fruits);
 fruits.reverse();
 console.log(fruits);
 fruits[0] = "berry"; 
-console.log(fruits);
+// console.log(fruits);
 
 // ---------------------------------------------------------------------------------------------------------
+// without comparing function
+const mixedNumericArray = ["80", "9", "300", 40, 1, 5, 200];
+mixedNumericArray.sort();
+// console.log(mixedNumericArray);
+
+// ---------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------
+// with comparing function
+const compareNumbers = (a,b) => {
+    return a-b
+}
+
+const mixedNumericArray1 = ["80", "9", "300", 40, 1, 5, 200];
+mixedNumericArray1.sort(compareNumbers);
+// console.log(mixedNumericArray1);
+
+mixedNumericArray2 = ["80", "9", "300", 40, 1, 5, 200];
+mixedNumericArray2.sort((a, b) => a-b);
+console.log(mixedNumericArray2);
