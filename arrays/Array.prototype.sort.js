@@ -33,7 +33,7 @@ mixedNumericArray.sort();
 // ---------------------------------------------------------------------------------------------------------
 // with comparing function
 const compareNumbers = (a,b) => {
-    return a-b
+    return a-b;
 }
 
 const mixedNumericArray1 = ["80", "9", "300", 40, 1, 5, 200];
@@ -43,3 +43,5 @@ mixedNumericArray1.sort(compareNumbers);
 mixedNumericArray2 = ["80", "9", "300", 40, 1, 5, 200];
 mixedNumericArray2.sort((a, b) => a-b);
 console.log(mixedNumericArray2);
+
+// ---------------------------------------------------------------------------------------------------------
