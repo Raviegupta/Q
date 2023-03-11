@@ -13,6 +13,17 @@
 // console.log(isArray(7));
 // console.log(isArray({a: 5, b: "Hello World"}));
 
+// Check it is array or object 
+// The isArray() method returns true if an object is an array, otherwise false.
+
+const isArray = (arr) => {
+  let ans = Array.isArray(arr);
+  return ans;
+}
+console.log(isArray([2,4,5]));
+console.log(isArray(7));
+console.log(isArray({a: 5, b: "Hello World"}));
+
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -61,18 +72,3 @@ function indexOf(arr, element) {
 }
 
 // ---------------------------------------------------------------------------------------------------------
-// Check it is array or object 
-// The isArray() method returns true if an object is an array, otherwise false.
-
-const isArray = (arr) => {
-  let ans = Array.isArray(arr);
-  return ans;
-}
-console.log(isArray([2,4,5]));
-console.log(isArray(7));
-console.log(isArray({a: 5, b: "Hello World"}));
-
-
-
-// ---------------------------------------------------------------------------------------------------------
-
