@@ -47,5 +47,18 @@ const shift = (arr) => {
   }
   return newArr;
 };
-console.log(shift(["angel", "clown", "mandarin", "surgeon"]))
+// console.log(shift(["angel", "clown", "mandarin", "surgeon"]))
 
+
+
+// ---------------------------------------------------------------------------------------------------------
+// Using shift() method in while loop.
+const names = ["Andrew", "Tyrone", "Paul", "Maria", "Gayatri"];
+
+while(typeof( i = names.shift()) != 'undefined') {
+    console.log(i);
+}
+
+// console.log(names);
+
+// ---------------------------------------------------------------------------------------------------------
