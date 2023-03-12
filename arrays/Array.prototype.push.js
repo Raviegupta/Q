@@ -33,5 +33,21 @@ const unshift = (arr, element) => {
     }
     return newArr;
 }
-console.log(unshift(['beans', 'spinach', 'tomato'], 'potato'));
+// console.log(unshift(['beans', 'spinach', 'tomato'], 'potato'));
 
+
+
+
+// ---------------------------------------------------------------------------------------------------------
+// -------------------------------------Merging Two arrays--------------------------------------------------
+// spread syntax :- push all elements from a second array into the first one.
+
+const kharif = ['rice', 'maize', 'bajra', 'jawar', 'cotton'];
+const rabi = ['wheat', 'barley', 'mustard', 'onion', 'potato'];
+
+const x = kharif.push(...rabi);
+console.log(kharif);
+console.log(x);
+
+// const crops = [...kharif, ...rabi]
+// console.log(crops);
