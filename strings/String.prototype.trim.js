@@ -5,7 +5,7 @@ const greeting = '   Hello world!   ';
 console.log(greeting.trim());
 
 let newStr = greeting.trim();
-console.log(newStr)
+console.log(newStr);
 
 
 
@@ -18,4 +18,15 @@ const greeting2 = '   Hello world!   ';
 console.log(greeting2.trimStart());
 
 let newStr2 = greeting2.trimStart();
-console.log(newStr2)
+console.log(newStr2);
+
+
+
+// ---------------------------------------------------------------------------------------------------------
+// String.prototype.trimEnd() :-
+
+const greeting3 = '   Hello world!   ';
+console.log(greeting3.trimEnd());
+
+let newStr3 = greeting3.trimEnd();
+console.log(newStr3)
