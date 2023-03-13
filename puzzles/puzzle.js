@@ -14,3 +14,9 @@
 // https://www.geeksforgeeks.org/puzzle-17-ratio-of-boys-and-girls-in-a-country-where-people-want-only-boys/
 // https://www.geeksforgeeks.org/puzzle-5-finding-the-injection-for-anesthesia/
 // https://www.geeksforgeeks.org/puzzle-20-5-pirates-and-100-gold-coins/
+
+// 216 MP camera
+// https://www.geeksforgeeks.org/puzzle-21-3-ants-and-triangle/
+// https://www.geeksforgeeks.org/puzzle-can-2-persons-be-with-same-number-of-hairs-on-their-heads/
+// https://www.geeksforgeeks.org/puzzle-40-find-missing-row-in-excel/
+// https://www.geeksforgeeks.org/puzzle-10-balls-in-5-lines/
