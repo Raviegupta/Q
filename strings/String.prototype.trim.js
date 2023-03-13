@@ -41,3 +41,4 @@ const removeSpace = (str) => {
     let newStr = arr.join('');
     return newStr;
 }
+console.log(removeSpace('   beer campus   '));
