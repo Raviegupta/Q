@@ -13,13 +13,23 @@
 // console.log(charArray("java script"));
 
 
-const charArray2 = (str) => {
-  let newStr = "";
-  for (let i = 0; i < str.length; i++) {
-    if (str[i] != " ") {
-      newStr += str[i];
-    }
-  }
-  return newStr.split("");
+// const charArray2 = (str) => {
+//   let newStr = "";
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] != " ") {
+//       newStr += str[i];
+//     }
+//   }
+//   return newStr.split("");
+// };
+// console.log(charArray2("java script"));
+
+
+// using Methods
+const charArray3 = (arr) => {
+  let arrWords = arr.split(" ");
+  let newStr = arrWords.join("");
+  arrChars = newStr.split("");
+  return arrChars;
 };
-console.log(charArray2("java script"));
+console.log(charArray3("java script"));
