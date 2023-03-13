@@ -31,5 +31,6 @@ const charArray3 = (arr) => {
   let newStr = arrWords.join("");
   arrChars = newStr.split("");
   return arrChars;
+//   return arr.split(" ").join("").split("");   // direct shortcut
 };
 console.log(charArray3("java script"));
