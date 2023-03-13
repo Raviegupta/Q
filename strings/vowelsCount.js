@@ -20,4 +20,22 @@ const vowels = (str) => {
   }
   return count;
 };
-console.log(vowels('beErcAmpuS'));
+// console.log(vowels("beErcAmpuS"));
+
+// ---------------------------------------------------------------------------------------------------------
+
+const isVowel = (ch) => {
+  ch = ch.toUpperCase();
+  return ch == "A" || ch == "E" || ch == "I" || ch == "O" || ch == "U";
+};
+
+const vowelsCount = (str) => {
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    console.log(isVowel(str[i]));
+  }
+  return count;
+};
+console.log(vowelsCount("beErcAmpuS"));
+// TC :- O(n)
+// Auxiliary Space :- O(1)
