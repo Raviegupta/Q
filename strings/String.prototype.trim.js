@@ -30,3 +30,14 @@ console.log(greeting3.trimEnd());
 
 let newStr3 = greeting3.trimEnd();
 console.log(newStr3)
+
+
+// ---------------------------------------------------------------------------------------------------------
+// Return the string after removing all the whitespace
+// https://replit.com/@ac102-batch/Remove-Whitespace-Raviegupta#index.js
+
+const removeSpace = (str) => {
+    let arr = str.split(' ');
+    let newStr = arr.join('');
+    return newStr;
+}
