@@ -8,3 +8,4 @@ Test-1
 Test-2 
 Test-3 (Pattern 1,2,3, Random No Gen)
 Array Basic Assigns 
+String Basic Assigs
