@@ -20,3 +20,11 @@ console.log(reverse2("javascript is awsome"));
 
 
 // ---------------------------------------------------------------------------------------------------------
+// reverse the string word by word
+// https://replit.com/@ac102-batch/String-Reverse-I-Raviegupta
+
+const reverseByWords = (str) => {
+  let arrWords = str.split(' ').reverse().join(' ')
+  return arrWords
+}
+console.log(reverseByWords('the sky is blue'));
