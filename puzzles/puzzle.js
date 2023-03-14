@@ -20,3 +20,9 @@
 // https://www.geeksforgeeks.org/puzzle-can-2-persons-be-with-same-number-of-hairs-on-their-heads/
 // https://www.geeksforgeeks.org/puzzle-40-find-missing-row-in-excel/
 // https://www.geeksforgeeks.org/puzzle-10-balls-in-5-lines/
+
+// ecma
+// https://www.geeksforgeeks.org/puzzle-cheating-husband/
+// https://www.geeksforgeeks.org/puzzle-32-completion-of-task/
+// https://www.geeksforgeeks.org/puzzle-27-hourglasses-puzzle/
+// https://www.geeksforgeeks.org/puzzle-snail-and-wall/
