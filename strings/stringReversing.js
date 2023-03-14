@@ -16,3 +16,7 @@ const reverse2 = (str) => {
   return arrChars.join("");
 };
 console.log(reverse2("javascript is awsome"));
+
+
+
+// ---------------------------------------------------------------------------------------------------------
