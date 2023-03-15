@@ -10,4 +10,4 @@ Test-3 (Pattern 1,2,3, Random No Gen)
 Array Basic Assigns 
 String Basic Assigs
 String Intermediate Assigns (Put commas,)
-loops Assigns (eye strain, pattern 1, 2, 3)
+loops Assigns (pattern 1, 2, 3)
