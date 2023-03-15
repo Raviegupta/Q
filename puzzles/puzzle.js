@@ -21,8 +21,16 @@
 // https://www.geeksforgeeks.org/puzzle-40-find-missing-row-in-excel/
 // https://www.geeksforgeeks.org/puzzle-10-balls-in-5-lines/
 
+// ferrari
+// https://www.geeksforgeeks.org/puzzle-the-burning-candles/
+// https://www.geeksforgeeks.org/puzzle-blind-games/
+// https://www.geeksforgeeks.org/tcs-digital-puzzle-lateral-thinking/
+// https://www.geeksforgeeks.org/puzzle-two-creepers-climbing-a-tree/
+
 // ecma
 // https://www.geeksforgeeks.org/puzzle-cheating-husband/
 // https://www.geeksforgeeks.org/puzzle-32-completion-of-task/
 // https://www.geeksforgeeks.org/puzzle-27-hourglasses-puzzle/
 // https://www.geeksforgeeks.org/puzzle-snail-and-wall/
+
+
