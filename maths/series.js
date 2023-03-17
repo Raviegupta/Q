@@ -9,7 +9,7 @@ const series = (N) => {
     }
     return sum;
 }
-console.log(series(6));
+// console.log(series(6));
 
 
 
@@ -31,8 +31,8 @@ const series2 = (N) => {
     }
     return sum;   
 }
-console.log(series2(4))
-console.log(series2(5))
+// console.log(series2(4))
+// console.log(series2(5))
 
 
 
@@ -49,9 +49,28 @@ const series3 = (N) => {
     }
     return sum;
 }
-console.log(series3(3));
-console.log(series3(4));
+// console.log(series3(3));
+// console.log(series3(4));
 
 
 
 // ---------------------------------------------------------------------------------------------------------
+// S = 1 + 2/(1+2) + 3/(1+2+3) + 4/(1+2+3+4) …….N/(1+2+3...N)
+
+const series4 = (N) => {
+    let sum = 0;
+    for(let i=1; i<=N; i++) {
+        let num = i;
+        let den = 0;
+        for(let j =1; j<=i; j++) {
+            den += j;
+        }
+        // console.log(num, den)
+        let term = (num/den);
+        sum += term;
+    }
+    return sum;
+}
+console.log(series4(3));
+console.log(series4(4));
+console.log(series4(5));
