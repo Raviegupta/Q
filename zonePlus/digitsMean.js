@@ -14,6 +14,19 @@ console.log(mean(153));
 console.log(mean(94656));
 
 
+const mean2 = (num) => {
+  let sum = 0, rem, count = 0;
+  while(num > 0) {
+      rem = num%10;
+      sum += rem;
+      num = Math.floor(num/10);
+      count++;
+  }
+  return sum/count;
+}
+console.log(mean2(9876));
+
+
 
 
 // ---------------------------------------------------------------------------------------------------------
