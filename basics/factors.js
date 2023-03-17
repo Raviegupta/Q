@@ -3,7 +3,7 @@
 
 function factor(num) {
   let str = "";
-  for (let i = 1; i < num.length; i++) {
+  for (let i = 1; i < num; i++) {
     if (num % i == 0) {
       str += i + " ";
     }
@@ -13,3 +13,20 @@ function factor(num) {
 }
 console.log(factor(9));
 
+
+
+// ---------------------------------------------------------------------------------------------------------
+// write a program to find the sum of all the factors of the number.
+
+const factorsSum = (num) => {
+  let sum = 0;
+  for(let i=1; i<=num; i++){
+    if(num%i == 0) {
+      console.log(i);
+      // sum += i;
+    }
+  }
+  return sum;
+}
+console.log(factorsSum(9));
+console.log(factorsSum(10));
