@@ -50,3 +50,21 @@ console.log(product(40, 50));
 
 
 // ---------------------------------------------------------------------------------------------------------
+// return no of zeroes present in the given no.
+
+const zeroes = (num) => {
+  let count = 0;
+  while(num>0) {
+    let rem=num%10;
+    if(rem == 0) {
+      count++
+    }
+    num = Math.floor(num/10);
+  }
+  return count;
+}
+console.log(zeroes(406030));
+console.log(zeroes(103));
+
+
+// ---------------------------------------------------------------------------------------------------------
