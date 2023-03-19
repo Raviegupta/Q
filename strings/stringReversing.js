@@ -55,6 +55,7 @@ console.log(reverseByWords3('the sky is blue'));
 
 
 // ---------------------------------------------------------------------------------------------------------
+// string manipulation1
 // reverse the chars of each word in it's position only. (***)
 // Ravie Gupta  =>  eiveR atpuG
 
@@ -71,3 +72,19 @@ const reverse3 = (str) => {
 }
 console.log(reverse3("Ravie Gupta"));
 console.log(reverse3("Chandigarh The City Beautiful"));
+
+
+
+// ---------------------------------------------------------------------------------------------------------
+// string manipulation2
+// city chandigarh  =>  ccihtayndigarh
+
+const reverse4 = (str) => {
+  let arrWords = str.split(' ');
+  for(let i=0; i<arrWords.length; irr){
+    
+  }
+
+  return arrWords;
+}
+console.log(reverse4('city chandigarh'))
