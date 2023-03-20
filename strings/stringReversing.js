@@ -8,14 +8,14 @@ const reverse = (str) => {
   }
   return newStr;
 };
-console.log(reverse("javascript is beautiful"));
+// console.log(reverse("javascript is beautiful"));
 
 const reverse2 = (str) => {
   let arrChars = str.split("");
   arrChars.reverse();
   return arrChars.join("");
 };
-console.log(reverse2("javascript is awsome"));
+// console.log(reverse2("javascript is awsome"));
 
 
 
@@ -27,7 +27,7 @@ const reverseByWords = (str) => {
   let arrWords = str.split(' ').reverse().join(' ')
   return arrWords
 }
-console.log(reverseByWords('the sky is blue'));
+// console.log(reverseByWords('the sky is blue'));
 
 
 const reverseByWords2 = (str) => {
@@ -39,7 +39,7 @@ const reverseByWords2 = (str) => {
   newStr += arrWords[0];
   return newStr;
 }
-console.log(reverseByWords2('the sky is blue'));
+// console.log(reverseByWords2('the sky is blue'));
 
 
 const reverseByWords3 = (str) => {
@@ -50,7 +50,7 @@ const reverseByWords3 = (str) => {
   }
   return newStr;
 }
-console.log(reverseByWords3('the sky is blue'));
+// console.log(reverseByWords3('the sky is blue'));
 
 
 
@@ -68,10 +68,10 @@ const reverse3 = (str) => {
     }
     newStr += " "; 
   }  
-  console.log(newStr);
+  // console.log(newStr);
 }
-console.log(reverse3("Ravie Gupta"));
-console.log(reverse3("Chandigarh The City Beautiful"));
+// console.log(reverse3("Ravie Gupta"));
+// console.log(reverse3("Chandigarh The City Beautiful"));
 
 
 
@@ -81,10 +81,30 @@ console.log(reverse3("Chandigarh The City Beautiful"));
 
 const reverse4 = (str) => {
   let arrWords = str.split(' ');
-  for(let i=0; i<arrWords.length; irr){
-    
+  console.log(arrWords);
+  let newStr = '', j =0;
+  for(let i=0; i<arrWords.length; i++) {
+    while(arrWords[i][j] == undefined) {
+
+    }
   }
 
-  return arrWords;
 }
-console.log(reverse4('city chandigarh'))
+console.log(reverse4('The city chandigarh'))
+
+
+const reverse5 = (str) => {
+  let arrWords = str.split(' ');
+  console.log(arrWords);
+  let newStr = '', j =0;
+  for(k=0; k<=4; k++) {
+    for(let i=0; i<arrWords.length; i++) {
+    newStr += arrWords[i][j];
+    }
+    newStr += ' '
+    j++;
+  }
+    console.log(newStr);
+  }
+  
+console.log(reverse5('ravie gupta'));
