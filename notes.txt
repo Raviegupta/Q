@@ -11,3 +11,7 @@ Array Basic Assigns
 String Basic Assigs
 String Intermediate Assigns (Put commas,)
 loops Assigns (pattern 1, 2, 3)
+
+
+
+// Hello check
