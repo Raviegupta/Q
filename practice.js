@@ -53,3 +53,14 @@ const palindrome = (str) => {
 console.log(palindrome('121221'));
 console.log(palindrome('arora'));
 
+// ------------------------------------
+
+// Array.prototype.slice();
+
+let arr = ['apple', 'banana', 'mango', 'cherry', 'oranges'];
+let newArr = arr.slice(1);
+console.log(newArr, arr);
+
+console.log(arr.slice(2,4));
+console.log(arr.slice());
+
