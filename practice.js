@@ -22,6 +22,34 @@ console.log(capitalizeFirstLetter('i love my india'));
 
 
 // ------------------------------------------------------
+// check palindrome
+// const palindrome = (str) => {
+//     let newStr = String(str);
+//     let check = true;
+//     for(let i=0; i<newStr.length/2; i++) {
+//         if(newStr[i] != newStr[newStr.length - i -1]) {
+//             check = false;
+//         }
+//     }
+//     return check;
+// }
+// console.log(palindrome(12121));
+// console.log(palindrome('arora'));
 
 
+const palindrome = (str) => {
+    let newStr = String(str);
+    let count = 0;
+    let j = newStr.length - 1
+    for(let i =0; i<newStr.length/2; i++) {
+        if(str[i] == str[j] && i < newStr.length/2 && j>=newStr.length/2) {
+            count++;    
+        }
+        j--   
+    }
+    console.log(count)
+    return count == Math.floor(newStr.length/2);
+}
+console.log(palindrome('121221'));
+console.log(palindrome('arora'));
 
