@@ -45,3 +45,36 @@ function buubleSort(array2) {      // to make function Pure
   let array1 = [4, 5, 7, 1, 2 ]
   console.log(buubleSort(array1))
   console.log(array1)              // now it's pure
+
+
+  // -------------------------------------------------------------------------
+
+// H.W
+// 1. dry run on the test case [2, 1, 3, 7, 5, 4, 6]
+// 2. try to think about, how to it change it for descending.   =>
+// 3. Think on the time complexity.                             => 0.5(n-1)n
+
+// H.W
+// don't use the arr.sort();
+// Question. find the second & third largest number present in the Array?
+// Ans -> Selection sort algorithm or Bubble sort algorithm.
+
+
+// by selection sort
+function sort1(arr) {
+    for ( var i = 0 ; i < 3; i++ ) {
+        var largestElementIndex = i;
+        for( var j = i+1; j < arr.length; j++) {
+            if (arr[largestElementIndex] < arr[j]) {
+                largestElementIndex = j;
+            }
+        }
+        //element present at i, largestElementIndex
+        var temp = arr[i];
+        arr[i] = arr[largestElementIndex];
+        arr[largestElementIndex] = temp;
+        //[arr[index],arr[smallestElementIndex]] = [arr[smallestElementIndex],arr[index]]
+    }
+  return `${arr[1]} , ${arr[2]}` ;
+}
+console.log(sort1([2, 5, 7, 0,1,2,5,-2,-10,15]));
